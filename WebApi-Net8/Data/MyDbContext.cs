@@ -9,6 +9,7 @@ namespace WebApi_Net8.Data
 		}
 		#region DbSet
 		public DbSet<HangHoa> HangHoas { get; set; }
+		public DbSet<Loai> Loais { get; set; }
 		#endregion
 	}
 }

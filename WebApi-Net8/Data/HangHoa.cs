@@ -15,5 +15,8 @@ namespace WebApi_Net8.Data
 		public double DonGia { get; set; }
 		public string MoTa { get; set; }
 		public byte GiamGia { get; set; }
+		public int? MaLoai { get; set; }
+		[ForeignKey("MaLoai")]
+		public Loai loai { get; set; }
 	}
 }
